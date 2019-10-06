@@ -1,0 +1,4 @@
+the hostname:cs5200-fall2019-liu.cqp8vapklpzg.us-east-1.rds.amazonaws.com
+username:flyingcat
+password:miao19960612liu
+port: 3306
