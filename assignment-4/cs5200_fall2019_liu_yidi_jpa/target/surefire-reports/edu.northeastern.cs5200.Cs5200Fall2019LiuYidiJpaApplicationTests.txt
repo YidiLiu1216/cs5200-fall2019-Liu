@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.047 s <<< FAILURE! - in edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests
+contextLoads(edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'universityDao': Unsatisfied dependency expressed through field 'fr'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'facultyRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract edu.northeastern.cs5200.controllers.Faculty edu.northeastern.cs5200.controllers.FacultyRepository.findByFirstname(java.lang.String)!
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'facultyRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract edu.northeastern.cs5200.controllers.Faculty edu.northeastern.cs5200.controllers.FacultyRepository.findByFirstname(java.lang.String)!
+Caused by: java.lang.IllegalArgumentException: Validation failed for query for method public abstract edu.northeastern.cs5200.controllers.Faculty edu.northeastern.cs5200.controllers.FacultyRepository.findByFirstname(java.lang.String)!
+Caused by: java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: * near line 1, column 8 [select * from person as p where p.firstname=:firstname]
+Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: * near line 1, column 8 [select * from person as p where p.firstname=:firstname]
+

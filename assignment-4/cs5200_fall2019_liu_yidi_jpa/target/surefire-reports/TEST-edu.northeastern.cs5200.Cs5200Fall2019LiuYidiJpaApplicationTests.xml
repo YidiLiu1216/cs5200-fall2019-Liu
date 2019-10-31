@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests" time="8.047" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Projects\STSworkspace\cs5200_fall2019_liu_yidi_jpa\target\test-classes;D:\Projects\STSworkspace\cs5200_fall2019_liu_yidi_jpa\target\classes;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.1.9.RELEASE\spring-boot-starter-data-jpa-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.1.9.RELEASE\spring-boot-starter-aop-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-aop\5.1.10.RELEASE\spring-aop-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\liuyi\.m2\repository\javax\transaction\javax.transaction-api\1.3\javax.transaction-api-1.3.jar;C:\Users\liuyi\.m2\repository\org\hibernate\hibernate-core\5.3.12.Final\hibernate-core-5.3.12.Final.jar;C:\Users\liuyi\.m2\repository\org\jboss\logging\jboss-logging\3.3.3.Final\jboss-logging-3.3.3.Final.jar;C:\Users\liuyi\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\liuyi\.m2\repository\org\javassist\javassist\3.23.2-GA\javassist-3.23.2-GA.jar;C:\Users\liuyi\.m2\repository\net\bytebuddy\byte-buddy\1.9.16\byte-buddy-1.9.16.jar;C:\Users\liuyi\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\liuyi\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\liuyi\.m2\repository\com\fasterxml\classmate\1.4.0\classmate-1.4.0.jar;C:\Users\liuyi\.m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar;C:\Users\liuyi\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\liuyi\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\liuyi\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\liuyi\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\liuyi\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\liuyi\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\liuyi\.m2\repository\org\springframework\data\spring-data-jpa\2.1.11.RELEASE\spring-data-jpa-2.1.11.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\data\spring-data-commons\2.1.11.RELEASE\spring-data-commons-2.1.11.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-orm\5.1.10.RELEASE\spring-orm-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-context\5.1.10.RELEASE\spring-context-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-tx\5.1.10.RELEASE\spring-tx-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-beans\5.1.10.RELEASE\spring-beans-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\slf4j\slf4j-api\1.7.28\slf4j-api-1.7.28.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-aspects\5.1.10.RELEASE\spring-aspects-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.1.9.RELEASE\spring-boot-starter-jdbc-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter\2.1.9.RELEASE\spring-boot-starter-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot\2.1.9.RELEASE\spring-boot-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.1.9.RELEASE\spring-boot-autoconfigure-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.1.9.RELEASE\spring-boot-starter-logging-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\liuyi\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\liuyi\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.11.2\log4j-to-slf4j-2.11.2.jar;C:\Users\liuyi\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar;C:\Users\liuyi\.m2\repository\org\slf4j\jul-to-slf4j\1.7.28\jul-to-slf4j-1.7.28.jar;C:\Users\liuyi\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar;C:\Users\liuyi\.m2\repository\com\zaxxer\HikariCP\3.2.0\HikariCP-3.2.0.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-jdbc\5.1.10.RELEASE\spring-jdbc-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.1.9.RELEASE\spring-boot-starter-web-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.1.9.RELEASE\spring-boot-starter-json-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9.3\jackson-databind-2.9.9.3.jar;C:\Users\liuyi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\liuyi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;C:\Users\liuyi\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.9\jackson-datatype-jdk8-2.9.9.jar;C:\Users\liuyi\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.9\jackson-datatype-jsr310-2.9.9.jar;C:\Users\liuyi\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.9\jackson-module-parameter-names-2.9.9.jar;C:\Users\liuyi\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.17.Final\hibernate-validator-6.0.17.Final.jar;C:\Users\liuyi\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-web\5.1.10.RELEASE\spring-web-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-webmvc\5.1.10.RELEASE\spring-webmvc-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-expression\5.1.10.RELEASE\spring-expression-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.1.9.RELEASE\spring-boot-starter-tomcat-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\liuyi\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.26\tomcat-embed-core-9.0.26.jar;C:\Users\liuyi\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.26\tomcat-embed-el-9.0.26.jar;C:\Users\liuyi\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.26\tomcat-embed-websocket-9.0.26.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.1.9.RELEASE\spring-boot-starter-test-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-test\2.1.9.RELEASE\spring-boot-test-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.1.9.RELEASE\spring-boot-test-autoconfigure-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\liuyi\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\liuyi\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\liuyi\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\liuyi\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\liuyi\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\Users\liuyi\.m2\repository\org\mockito\mockito-core\2.23.4\mockito-core-2.23.4.jar;C:\Users\liuyi\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.16\byte-buddy-agent-1.9.16.jar;C:\Users\liuyi\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\liuyi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\liuyi\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\liuyi\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\liuyi\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-core\5.1.10.RELEASE\spring-core-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-jcl\5.1.10.RELEASE\spring-jcl-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-test\5.1.10.RELEASE\spring-test-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\xmlunit\xmlunit-core\2.6.3\xmlunit-core-2.6.3.jar;C:\Users\liuyi\.m2\repository\mysql\mysql-connector-java\8.0.17\mysql-connector-java-8.0.17.jar;C:\Users\liuyi\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\liuyi\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk-13\bin"/>
+    <property name="sun.java.command" value="C:\Users\liuyi\AppData\Local\Temp\surefire13817067573199744845\surefirebooter13588120659622904402.jar C:\Users\liuyi\AppData\Local\Temp\surefire13817067573199744845 2019-10-31T01-44-53_833-jvmRun1 surefire2252592400091497393tmp surefire_06653991262592375074tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Projects\STSworkspace\cs5200_fall2019_liu_yidi_jpa\target\test-classes;D:\Projects\STSworkspace\cs5200_fall2019_liu_yidi_jpa\target\classes;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.1.9.RELEASE\spring-boot-starter-data-jpa-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.1.9.RELEASE\spring-boot-starter-aop-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-aop\5.1.10.RELEASE\spring-aop-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\aspectj\aspectjweaver\1.9.4\aspectjweaver-1.9.4.jar;C:\Users\liuyi\.m2\repository\javax\transaction\javax.transaction-api\1.3\javax.transaction-api-1.3.jar;C:\Users\liuyi\.m2\repository\org\hibernate\hibernate-core\5.3.12.Final\hibernate-core-5.3.12.Final.jar;C:\Users\liuyi\.m2\repository\org\jboss\logging\jboss-logging\3.3.3.Final\jboss-logging-3.3.3.Final.jar;C:\Users\liuyi\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\liuyi\.m2\repository\org\javassist\javassist\3.23.2-GA\javassist-3.23.2-GA.jar;C:\Users\liuyi\.m2\repository\net\bytebuddy\byte-buddy\1.9.16\byte-buddy-1.9.16.jar;C:\Users\liuyi\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\liuyi\.m2\repository\org\jboss\jandex\2.0.5.Final\jandex-2.0.5.Final.jar;C:\Users\liuyi\.m2\repository\com\fasterxml\classmate\1.4.0\classmate-1.4.0.jar;C:\Users\liuyi\.m2\repository\org\dom4j\dom4j\2.1.1\dom4j-2.1.1.jar;C:\Users\liuyi\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.4.Final\hibernate-commons-annotations-5.0.4.Final.jar;C:\Users\liuyi\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\liuyi\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\liuyi\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\liuyi\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\liuyi\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\liuyi\.m2\repository\org\springframework\data\spring-data-jpa\2.1.11.RELEASE\spring-data-jpa-2.1.11.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\data\spring-data-commons\2.1.11.RELEASE\spring-data-commons-2.1.11.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-orm\5.1.10.RELEASE\spring-orm-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-context\5.1.10.RELEASE\spring-context-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-tx\5.1.10.RELEASE\spring-tx-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-beans\5.1.10.RELEASE\spring-beans-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\slf4j\slf4j-api\1.7.28\slf4j-api-1.7.28.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-aspects\5.1.10.RELEASE\spring-aspects-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.1.9.RELEASE\spring-boot-starter-jdbc-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter\2.1.9.RELEASE\spring-boot-starter-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot\2.1.9.RELEASE\spring-boot-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.1.9.RELEASE\spring-boot-autoconfigure-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.1.9.RELEASE\spring-boot-starter-logging-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\liuyi\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\liuyi\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.11.2\log4j-to-slf4j-2.11.2.jar;C:\Users\liuyi\.m2\repository\org\apache\logging\log4j\log4j-api\2.11.2\log4j-api-2.11.2.jar;C:\Users\liuyi\.m2\repository\org\slf4j\jul-to-slf4j\1.7.28\jul-to-slf4j-1.7.28.jar;C:\Users\liuyi\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23.jar;C:\Users\liuyi\.m2\repository\com\zaxxer\HikariCP\3.2.0\HikariCP-3.2.0.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-jdbc\5.1.10.RELEASE\spring-jdbc-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.1.9.RELEASE\spring-boot-starter-web-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.1.9.RELEASE\spring-boot-starter-json-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9.3\jackson-databind-2.9.9.3.jar;C:\Users\liuyi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\liuyi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;C:\Users\liuyi\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.9\jackson-datatype-jdk8-2.9.9.jar;C:\Users\liuyi\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.9\jackson-datatype-jsr310-2.9.9.jar;C:\Users\liuyi\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.9\jackson-module-parameter-names-2.9.9.jar;C:\Users\liuyi\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.17.Final\hibernate-validator-6.0.17.Final.jar;C:\Users\liuyi\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-web\5.1.10.RELEASE\spring-web-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-webmvc\5.1.10.RELEASE\spring-webmvc-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-expression\5.1.10.RELEASE\spring-expression-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.1.9.RELEASE\spring-boot-starter-tomcat-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\liuyi\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.26\tomcat-embed-core-9.0.26.jar;C:\Users\liuyi\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.26\tomcat-embed-el-9.0.26.jar;C:\Users\liuyi\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\9.0.26\tomcat-embed-websocket-9.0.26.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.1.9.RELEASE\spring-boot-starter-test-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-test\2.1.9.RELEASE\spring-boot-test-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.1.9.RELEASE\spring-boot-test-autoconfigure-2.1.9.RELEASE.jar;C:\Users\liuyi\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\liuyi\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\liuyi\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\liuyi\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\liuyi\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\liuyi\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\Users\liuyi\.m2\repository\org\mockito\mockito-core\2.23.4\mockito-core-2.23.4.jar;C:\Users\liuyi\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.16\byte-buddy-agent-1.9.16.jar;C:\Users\liuyi\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\liuyi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\liuyi\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\liuyi\.m2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\liuyi\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-core\5.1.10.RELEASE\spring-core-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-jcl\5.1.10.RELEASE\spring-jcl-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\springframework\spring-test\5.1.10.RELEASE\spring-test-5.1.10.RELEASE.jar;C:\Users\liuyi\.m2\repository\org\xmlunit\xmlunit-core\2.6.3\xmlunit-core-2.6.3.jar;C:\Users\liuyi\.m2\repository\mysql\mysql-connector-java\8.0.17\mysql-connector-java-8.0.17.jar;C:\Users\liuyi\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\liuyi\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\liuyi"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-09-17"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk-13"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Projects\STSworkspace\cs5200_fall2019_liu_yidi_jpa"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\liuyi\AppData\Local\Temp\surefire13817067573199744845\surefirebooter13588120659622904402.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13-ea+33"/>
+    <property name="user.name" value="liuyi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\liuyi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\liuyi\AppData\Local\Temp\"/>
+    <property name="java.version" value="13-ea"/>
+    <property name="user.dir" value="D:\Projects\STSworkspace\cs5200_fall2019_liu_yidi_jpa"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk-13\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\Program Files\MATLAB\R2019b\bin;D:\Program Files\Java\jdk-13\bin;D:\Program Files\Java\jdk-13\jre\bin;D:\Program Files\Java\apache-maven-3.6.2\bin;D:\Program Files\Git\cmd;D:\Users\liuyi\AppData\Local\Programs\Python\Python37\Scripts\;D:\Users\liuyi\AppData\Local\Programs\Python\Python37\;C:\Users\liuyi\AppData\Local\Microsoft\WindowsApps;;D:\Program Files\JetBrains\PyCharm 2019.2.2\bin;;D:\Program Files\heroku\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13-ea+33"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="contextLoads" classname="edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests" time="0">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'universityDao': Unsatisfied dependency expressed through field 'fr'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'facultyRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract edu.northeastern.cs5200.controllers.Faculty edu.northeastern.cs5200.controllers.FacultyRepository.findByFirstname(java.lang.String)!
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'facultyRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract edu.northeastern.cs5200.controllers.Faculty edu.northeastern.cs5200.controllers.FacultyRepository.findByFirstname(java.lang.String)!
+Caused by: java.lang.IllegalArgumentException: Validation failed for query for method public abstract edu.northeastern.cs5200.controllers.Faculty edu.northeastern.cs5200.controllers.FacultyRepository.findByFirstname(java.lang.String)!
+Caused by: java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: * near line 1, column 8 [select * from person as p where p.firstname=:firstname]
+Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: * near line 1, column 8 [select * from person as p where p.firstname=:firstname]
+</error>
+    <system-out><![CDATA[01:45:04.680 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests]
+01:45:04.685 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:45:04.693 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+01:45:04.709 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+01:45:04.720 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests], using SpringBootContextLoader
+01:45:04.743 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests]: class path resource [edu/northeastern/cs5200/Cs5200Fall2019LiuYidiJpaApplicationTests-context.xml] does not exist
+01:45:04.744 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests]: class path resource [edu/northeastern/cs5200/Cs5200Fall2019LiuYidiJpaApplicationTestsContext.groovy] does not exist
+01:45:04.744 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+01:45:04.745 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests]: Cs5200Fall2019LiuYidiJpaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:45:04.786 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests]
+01:45:04.852 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [D:\Projects\STSworkspace\cs5200_fall2019_liu_yidi_jpa\target\classes\edu\northeastern\cs5200\Cs5200Fall2019LiuYidiJpaApplication.class]
+01:45:04.857 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplication for test class edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests
+01:45:04.928 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests]: using defaults.
+01:45:04.929 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+01:45:04.944 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@15bb5034, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4b741d6d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2eae8e6e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@8f2ef19, org.springframework.test.context.support.DirtiesContextTestExecutionListener@470734c3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2cf3d63b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7674f035, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@69e153c5, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@173ed316, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@25ce9dc4, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@74ea2410, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@17f62e33]
+01:45:04.946 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests]
+01:45:04.946 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests]
+01:45:04.949 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests]
+01:45:04.949 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests]
+01:45:04.950 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests]
+01:45:04.950 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests]
+01:45:04.953 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@d737b89 testClass = Cs5200Fall2019LiuYidiJpaApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@8519cb4 testClass = Cs5200Fall2019LiuYidiJpaApplicationTests, locations = '{}', classes = '{class edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@56528192, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5ccddd20, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@47d90b9e, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@3c419631], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+01:45:04.953 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests]
+01:45:04.953 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests]
+01:45:04.975 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.9.RELEASE)
+
+2019-10-31 01:45:05.223  INFO 16992 --- [           main] Cs5200Fall2019LiuYidiJpaApplicationTests : Starting Cs5200Fall2019LiuYidiJpaApplicationTests on DESKTOP-U7MKDPV with PID 16992 (started by liuyi in D:\Projects\STSworkspace\cs5200_fall2019_liu_yidi_jpa)
+2019-10-31 01:45:05.224  INFO 16992 --- [           main] Cs5200Fall2019LiuYidiJpaApplicationTests : No active profile set, falling back to default profiles: default
+2019-10-31 01:45:05.886  INFO 16992 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-31 01:45:06.036  INFO 16992 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 139ms. Found 20 repository interfaces.
+2019-10-31 01:45:06.432  INFO 16992 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$375a5b6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-31 01:45:06.621  INFO 16992 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2019-10-31 01:45:06.625  WARN 16992 --- [           main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2019-10-31 01:45:07.498  INFO 16992 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2019-10-31 01:45:07.548  INFO 16992 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-31 01:45:07.593  INFO 16992 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.12.Final}
+2019-10-31 01:45:07.594  INFO 16992 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-10-31 01:45:07.698  INFO 16992 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-10-31 01:45:07.795  INFO 16992 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+Hibernate: 
+    
+    alter table answer 
+       add constraint FK8frr4bcabmmeyyu60qt7iiblo 
+       foreign key (question_id) 
+       references question (id)
+Hibernate: 
+    
+    alter table answer 
+       add constraint FKbrmwl07ce9bgkgq4b77oolxi9 
+       foreign key (student_id) 
+       references person (id)
+Hibernate: 
+    
+    alter table course 
+       add constraint FKpcrgnqpqt87hyk4rueivuk7lf 
+       foreign key (faculty_id) 
+       references person (id)
+Hibernate: 
+    
+    alter table enrollment 
+       add constraint FKamt2st6hpbqje7p6jwqd6cm5e 
+       foreign key (section_id) 
+       references section (id)
+Hibernate: 
+    
+    alter table enrollment 
+       add constraint FKnwwu6c4y4b33gt3a2ebgjl0nj 
+       foreign key (student_id) 
+       references person (id)
+Hibernate: 
+    
+    alter table lesson 
+       add constraint FK8ig5gt5ec58weexave6kdn2cv 
+       foreign key (module_id) 
+       references module (id)
+Hibernate: 
+    
+    alter table module 
+       add constraint FKfq09oddpwjoxcirvkh9vnfnsg 
+       foreign key (course_id) 
+       references course (id)
+Hibernate: 
+    
+    alter table multiple_choice 
+       add constraint FKc7p4fdbt5hmtla7jmxr6imer5 
+       foreign key (id) 
+       references question (id)
+Hibernate: 
+    
+    alter table question 
+       add constraint FKmls313vi73ntiwg35lqk55pb0 
+       foreign key (quizwidget_id) 
+       references widget (id)
+Hibernate: 
+    
+    alter table question_answers 
+       add constraint FKnr1xcvup15w03kboejfervq1y 
+       foreign key (answers_id) 
+       references answer (id)
+Hibernate: 
+    
+    alter table question_answers 
+       add constraint FKlglw0r110cw97aje0b0pa4q51 
+       foreign key (question_id) 
+       references question (id)
+Hibernate: 
+    
+    alter table section 
+       add constraint FKoy8uc0ftpivwopwf5ptwdtar0 
+       foreign key (course_id) 
+       references course (id)
+Hibernate: 
+    
+    alter table topic 
+       add constraint FKie3l7jgy01eohf5lyafc6qj1b 
+       foreign key (lesson_id) 
+       references lesson (id)
+Hibernate: 
+    
+    alter table true_false 
+       add constraint FKriyt9iw8w5nusyiw900n9k81 
+       foreign key (id) 
+       references question (id)
+Hibernate: 
+    
+    alter table widget 
+       add constraint FKk5kh2djrqfks59tt3nh5tu29b 
+       foreign key (topic_id) 
+       references topic (id)
+2019-10-31 01:45:10.543  INFO 16992 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-31 01:45:10.843  INFO 16992 --- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-10-31 01:45:10.870 ERROR 16992 --- [           main] o.h.hql.internal.ast.ErrorTracker        : line 1:8: unexpected token: *
+2019-10-31 01:45:10.877 ERROR 16992 --- [           main] o.h.hql.internal.ast.ErrorTracker        : line 1:8: unexpected token: *
+
+antlr.NoViableAltException: unexpected token: *
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectClause(HqlBaseParser.java:1263) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectFrom(HqlBaseParser.java:1040) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.queryRule(HqlBaseParser.java:748) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.selectStatement(HqlBaseParser.java:319) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.hql.internal.antlr.HqlBaseParser.statement(HqlBaseParser.java:198) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:289) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:188) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:611) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:720) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:104) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:351) ~[spring-orm-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at com.sun.proxy.$Proxy89.createQuery(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:87) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:63) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:142) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:209) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:566) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:559) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[na:na]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[na:na]
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1054) ~[na:na]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:561) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:551) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at java.base/java.util.Optional.map(Optional.java:258) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:551) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:324) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:94) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744) ~[spring-boot-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391) ~[spring-boot-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+
+2019-10-31 01:45:10.883  WARN 16992 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'universityDao': Unsatisfied dependency expressed through field 'fr'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'facultyRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract edu.northeastern.cs5200.controllers.Faculty edu.northeastern.cs5200.controllers.FacultyRepository.findByFirstname(java.lang.String)!
+2019-10-31 01:45:10.884  INFO 16992 --- [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-10-31 01:45:10.887  INFO 16992 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2019-10-31 01:45:10.975  INFO 16992 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2019-10-31 01:45:10.987  INFO 16992 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-10-31 01:45:10.990 ERROR 16992 --- [           main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'universityDao': Unsatisfied dependency expressed through field 'fr'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'facultyRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract edu.northeastern.cs5200.controllers.Faculty edu.northeastern.cs5200.controllers.FacultyRepository.findByFirstname(java.lang.String)!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744) ~[spring-boot-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391) ~[spring-boot-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'facultyRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract edu.northeastern.cs5200.controllers.Faculty edu.northeastern.cs5200.controllers.FacultyRepository.findByFirstname(java.lang.String)!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	... 45 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Validation failed for query for method public abstract edu.northeastern.cs5200.controllers.Faculty edu.northeastern.cs5200.controllers.FacultyRepository.findByFirstname(java.lang.String)!
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:93) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:63) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:142) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:209) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:566) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:559) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[na:na]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[na:na]
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1054) ~[na:na]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:561) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:551) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at java.base/java.util.Optional.map(Optional.java:258) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:551) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:324) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:94) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	... 55 common frames omitted
+Caused by: java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: * near line 1, column 8 [select * from person as p where p.firstname=:firstname]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:729) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:104) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:351) ~[spring-orm-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at com.sun.proxy.$Proxy89.createQuery(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:87) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	... 84 common frames omitted
+Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: * near line 1, column 8 [select * from person as p where p.firstname=:firstname]
+	at org.hibernate.hql.internal.ast.QuerySyntaxException.convert(QuerySyntaxException.java:74) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.hql.internal.ast.ErrorTracker.throwQueryException(ErrorTracker.java:93) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:296) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:188) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:611) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:720) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	... 92 common frames omitted
+
+2019-10-31 01:45:10.996 ERROR 16992 --- [           main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@15bb5034] to prepare test instance [edu.northeastern.cs5200.Cs5200Fall2019LiuYidiJpaApplicationTests@c7269ad]
+
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'universityDao': Unsatisfied dependency expressed through field 'fr'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'facultyRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract edu.northeastern.cs5200.controllers.Faculty edu.northeastern.cs5200.controllers.FacultyRepository.findByFirstname(java.lang.String)!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:598) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:376) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:847) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744) ~[spring-boot-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391) ~[spring-boot-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:120) ~[spring-boot-test-2.1.9.RELEASE.jar:2.1.9.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) ~[spring-test-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	... 27 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'facultyRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Validation failed for query for method public abstract edu.northeastern.cs5200.controllers.Faculty edu.northeastern.cs5200.controllers.FacultyRepository.findByFirstname(java.lang.String)!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1778) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1255) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1175) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:595) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	... 45 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Validation failed for query for method public abstract edu.northeastern.cs5200.controllers.Faculty edu.northeastern.cs5200.controllers.FacultyRepository.findByFirstname(java.lang.String)!
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:93) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.<init>(SimpleJpaQuery.java:63) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromMethodWithQueryString(JpaQueryFactory.java:76) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryFactory.fromQueryAnnotation(JpaQueryFactory.java:56) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$DeclaredQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:142) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:209) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:566) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:559) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[na:na]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[na:na]
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1054) ~[na:na]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:561) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:551) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at java.base/java.util.Optional.map(Optional.java:258) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:551) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:324) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:211) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.util.Lazy.get(Lazy.java:94) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300) ~[spring-data-commons-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1837) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1774) ~[spring-beans-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	... 55 common frames omitted
+Caused by: java.lang.IllegalArgumentException: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: * near line 1, column 8 [select * from person as p where p.firstname=:firstname]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:138) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:729) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:104) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:351) ~[spring-orm-5.1.10.RELEASE.jar:5.1.10.RELEASE]
+	at com.sun.proxy.$Proxy89.createQuery(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.query.SimpleJpaQuery.validateQuery(SimpleJpaQuery.java:87) ~[spring-data-jpa-2.1.11.RELEASE.jar:2.1.11.RELEASE]
+	... 84 common frames omitted
+Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: unexpected token: * near line 1, column 8 [select * from person as p where p.firstname=:firstname]
+	at org.hibernate.hql.internal.ast.QuerySyntaxException.convert(QuerySyntaxException.java:74) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.hql.internal.ast.ErrorTracker.throwQueryException(ErrorTracker.java:93) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.parse(QueryTranslatorImpl.java:296) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:188) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:143) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:119) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:80) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:153) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.getQueryPlan(AbstractSharedSessionContract.java:611) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:720) ~[hibernate-core-5.3.12.Final.jar:5.3.12.Final]
+	... 92 common frames omitted
+
+]]></system-out>
+    <system-err><![CDATA[Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+]]></system-err>
+  </testcase>
+</testsuite>
